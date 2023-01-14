@@ -141,12 +141,13 @@ nav {
 /*-----------     ------------------
 text decoration and button end
  ------------     -------------------*/
- .feature-container{
+.feature-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
 }
+
 .f-title {
     width: 468px;
     height: 106px;
@@ -164,7 +165,7 @@ text decoration and button end
 
 }
 
-.main{
+.main {
     padding-left: 80px;
 }
 
@@ -172,5 +173,33 @@ text decoration and button end
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    
+
+}
+
+/*---------------------------------------
+ Features you will love & enjoy section 
+ ----------------------------------------*/
+
+/* vertical line with text */
+.vl {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+
+}
+
+.Features-line {
+    display: flex;
+}
+
+/* vertical line with text "end" */
+
+.fu-text {
+    width: 468px;
+    height: 106px;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+
 }
