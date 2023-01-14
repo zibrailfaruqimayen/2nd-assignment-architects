@@ -181,7 +181,7 @@ text decoration and button end
  ----------------------------------------*/
 .feature-you-container {
     margin: 130px 240px;
-    border: 2px solid red;
+    
     
 }
 
@@ -274,4 +274,8 @@ text decoration and button end
 }
 .f-img img{
     padding-left: 130px;
+}
+.ten-btn-move{
+   margin-left: 710px; 
+   margin-top: -150px;
 }
