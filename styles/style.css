@@ -203,3 +203,33 @@ text decoration and button end
     padding-left: 20px;
 
 }
+
+.fu-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 586px;
+    height: 78px;
+    padding-top: 20px;
+}
+/* 10 year button start */
+.y-btn {
+    border: 0;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.ex {
+    font-size: 25px;
+    width: 258px;
+    height: 109px;
+    color: #FFFFFF;
+}
+/* 10 year button start */
+
+
