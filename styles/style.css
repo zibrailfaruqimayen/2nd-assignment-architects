@@ -357,7 +357,6 @@ text decoration and button end
 /*--------------
   extra section 
   --------------*/
-.pro-text {}
 
 .pro {
     font-weight: 700;
@@ -368,15 +367,49 @@ text decoration and button end
 }
 
 .pro-img img {
-    
+
     width: 345px;
     height: 345px;
     border-radius: 10px;
 }
-.pro-img{
+
+.pro-img {
     margin-left: 500px;
     margin-right: 300px;
     margin-bottom: 190px;
-    
-    
+}
+
+/*--------------
+  extra section end
+  --------------*/
+
+
+/*------- 
+  our sponsors section
+  -------------*/
+.spon-text {
+    display: grid;
+    justify-content: center;
+}
+
+.spon-title {
+    width: 327px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.spon-description {
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
 }
