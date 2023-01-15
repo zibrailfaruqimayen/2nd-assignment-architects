@@ -349,8 +349,34 @@ text decoration and button end
     font-weight: 500;
     font-size: 20px;
 }
+
 /*-------------------
  Facts section end
  -------------------*/
 
- 
+/*--------------
+  extra section 
+  --------------*/
+.pro-text {}
+
+.pro {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pro-img img {
+    
+    width: 345px;
+    height: 345px;
+    border-radius: 10px;
+}
+.pro-img{
+    margin-left: 500px;
+    margin-right: 300px;
+    margin-bottom: 190px;
+    
+    
+}
