@@ -412,14 +412,65 @@ text decoration and button end
     padding-top: 25px;
     padding-bottom: 50px;
 }
-.spon-logo{
+
+.spon-logo {
     display: grid;
     justify-content: center;
     margin-bottom: 130px;
 }
-.logo img{
+
+.logo img {
     padding: 0 75px;
 }
+
 /*------- 
-  our sponsors section
+  our sponsors section end
   -------------*/
+
+/* footer  */
+.footer-text {
+    height: 23px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    margin-bottom: 216px;
+}
+
+/* responsive styles  */
+
+@media screen and (max-width:576px) {
+    
+    .fact-container{
+        display: grid;
+        align-items: center;
+    }
+    .facts-section{
+        margin-left: 9px;
+        width: 30px;
+    }
+    .f-line{
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    } 
+
+}
+@media screen and (min-width:577px) and (max-width:992) {
+    
+}
+.hide{
+    display: none;
+}
